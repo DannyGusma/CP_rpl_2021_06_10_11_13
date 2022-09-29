@@ -22,24 +22,8 @@ const routes = [
 ];
 
 const Navbar = () => {
-  // const [color, setColor] = useState(false);
-
-  // const ChangeColor = () => {
-  //   if (window.scrollY >= 90) {
-  //     setColor(true);
-  //   } else {
-  //     setColor(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", ChangeColor);
-  // }, []);
-
   return (
-    <div
-    //  className={color ? "bg-red-500" : "bg-transparent"}
-    >
+    <div>
       <nav className="navbar bg-white fixed top-0 right-0 left-0 z-[999]">
         <div className="container">
           <div className="flex-1">
